@@ -16,13 +16,13 @@ Necesitar√° tener instalado [Node.js](https://nodejs.org/es/download/)  en su m√
 clonarlo
 
 ```bash
-git clone https://github.com/yessith/rick-and-morty-graphql.git
+git clone https://github.com/yessith/todo-app.git
 ```
 
 Ir al directorio del proyecto
 
 ```bash
-cd rick-and-morty-graphql
+cd todo-app
 ```
 
 Instalar dependencias npm
