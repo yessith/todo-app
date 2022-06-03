@@ -1,0 +1,12 @@
+.TodoLogo {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoLogo h1 {
+  font-size: 5rem;
+  color: var(--Color-White);
+}

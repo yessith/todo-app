@@ -1,0 +1,22 @@
+.TodoControl {
+  height: 90px;
+  display: grid;
+  place-items: center;
+  background-color: var(--color-background-item);
+}
+
+.TodoControlBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--color-text-complete);
+}
+
+.TodoBtn {
+  color: var(--color-text-hover);
+}
+
+.TodoBtn:hover {
+  color: var(--color-text);
+}

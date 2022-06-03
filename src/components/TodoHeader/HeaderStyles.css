@@ -1,0 +1,8 @@
+.TodoHead {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  max-width: 700px;
+  gap: 2rem;
+  padding: 0 1rem;
+}

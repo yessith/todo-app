@@ -1,0 +1,8 @@
+.TodoLayout {
+  height: 250px;
+  display: grid;
+  gap: 3rem;
+  place-items: center;
+  background: url(../../assets/bg-desktop-dark.jpg) no-repeat center;
+  background-size: cover;
+}

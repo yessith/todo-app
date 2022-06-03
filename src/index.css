@@ -1,0 +1,130 @@
+:root {
+  --Color-White: #ffffff;
+}
+
+
+/*------------------------------------*\
+   $THEMES
+\*------------------------------------*/
+.theme-1 {
+  --color-text: #484b6a;
+  --color-text-hover: #9394a5;
+  --color-text-complete: #9394a5;
+  --color-background: #d2d3db;
+  --color-background-item: #fafafa;
+}
+
+.theme-2 {
+  --color-text: #fff;
+  --color-text-hover: #e4e5f1;
+  --color-text-complete: #777a92;
+  --color-background: #161722;
+  --color-background-item: #25273c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+
+html, body, div, span, button, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, a, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, main, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+    $SITIO
+\*------------------------------------*/
+
+html {
+  font-size: 62.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  background-color: var(--color-background);
+}
+
+a, button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*------------------------------------*\
+    $TIPOGRAFÍA
+\*------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+span {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+/*------------------------------------*\
+    $LINK
+\*------------------------------------*/
+
+a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+
+a:focus {
+  outline: none;
+}
+
+a:hover, a:active {
+  outline: none;
+  color: hsl(220, 98%, 61%);
+}
